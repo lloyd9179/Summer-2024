@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>my_robot_description</name>
+  <version>0.0.0</version>
+  <description>Robot description for my_robot</description>
+  <maintainer email="parallels@todo.todo">parallels</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>ament_cmake</build_depend>
+  <build_depend>urdf</build_depend>
+  <build_depend>xacro</build_depend>
+
+  <exec_depend>ament_cmake</exec_depend>
+  <exec_depend>urdf</exec_depend>
+  <exec_depend>xacro</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
